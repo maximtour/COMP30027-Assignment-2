@@ -1,0 +1,874 @@
+model,params,f1
+MLP,"layers=(512, 512)  act=SiLU  drop=0.4  lr=0.0001",0.988025721937676
+MLP,"layers=(256, 1024, 256)  act=GELU  drop=0.0  lr=0.0001",0.9880243411517692
+MLP,"layers=(256, 256, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9880171266238881
+MLP,"layers=(1024, 1024)  act=GELU  drop=0.0  lr=0.0001",0.988014792779449
+MLP,"layers=(512, 512, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9879893846258704
+MLP,"layers=(256, 1024, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9867079925682819
+MLP,"layers=(1024, 1024, 256)  act=ReLU  drop=0.0  lr=0.0001",0.986700047269306
+MLP,"layers=(512, 512)  act=SiLU  drop=0.2  lr=0.0001",0.986700047269306
+MLP,"layers=(1024, 1024)  act=ReLU  drop=0.0  lr=0.01",0.9866978835010684
+MLP,"layers=(512, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9866925640507367
+MLP,"layers=(256,)  act=ReLU  drop=0.4  lr=0.0001",0.9866919213720927
+MLP,"layers=(256, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9866910670803287
+MLP,"layers=(256, 512)  act=GELU  drop=0.4  lr=0.0001",0.9866910670803287
+MLP,"layers=(256, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.9866837932905549
+MLP,"layers=(512, 512, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9866837932905549
+MLP,"layers=(256, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9866833900619926
+MLP,"layers=(256, 512, 512)  act=ReLU  drop=0.0  lr=0.0001",0.9866833900619926
+MLP,"layers=(512, 1024, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9866830937525268
+MLP,"layers=(256, 512)  act=GELU  drop=0.0  lr=0.0001",0.9866830937525268
+MLP,"layers=(1024, 512)  act=GELU  drop=0.0  lr=0.0001",0.9866830913500177
+MLP,"layers=(256, 512, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9866649548082135
+MLP,"layers=(256, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9866649548082135
+MLP,"layers=(256,)  act=SiLU  drop=0.2  lr=0.0001",0.9866649548082135
+MLP,"layers=(1024, 256, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9853762434960757
+MLP,"layers=(256, 256, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9853750358172777
+MLP,"layers=(1024, 256, 1024)  act=GELU  drop=0.0  lr=0.0001",0.9853750032321967
+MLP,"layers=(512,)  act=GELU  drop=0.0  lr=0.0001",0.9853667731978658
+MLP,"layers=(512, 1024, 512)  act=GELU  drop=0.0  lr=0.0001",0.9853629018458566
+MLP,"layers=(1024, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9853592899792966
+MLP,"layers=(512, 512)  act=ReLU  drop=0.0  lr=0.0001",0.9853585904412686
+MLP,"layers=(256,)  act=ReLU  drop=0.0  lr=0.0001",0.9853577337469954
+MLP,"layers=(1024,)  act=ReLU  drop=0.2  lr=0.0001",0.9853577337469954
+MLP,"layers=(256, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9853577337469954
+MLP,"layers=(512, 512)  act=GELU  drop=0.0  lr=0.0001",0.9853577337469954
+MLP,"layers=(512, 512, 512)  act=GELU  drop=0.0  lr=0.0001",0.9853572572493413
+MLP,"layers=(256, 512)  act=SiLU  drop=0.0  lr=0.0001",0.985349997466766
+MLP,"layers=(512, 1024, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9853495802310049
+MLP,"layers=(1024, 1024, 512)  act=GELU  drop=0.2  lr=0.0001",0.9853494617072186
+MLP,"layers=(1024, 512, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9853494450730016
+MLP,"layers=(512, 512, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9853490918409279
+MLP,"layers=(256, 512, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9853488000550721
+MLP,"layers=(256, 256, 256)  act=GELU  drop=0.0  lr=0.0001",0.9853481261127823
+MLP,"layers=(512, 1024, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9853477568360425
+MLP,"layers=(512, 512, 512)  act=ReLU  drop=0.0  lr=0.0001",0.9853409303971185
+MLP,"layers=(1024, 256, 256)  act=GELU  drop=0.2  lr=0.0001",0.9853409279946094
+MLP,"layers=(256, 512, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9853409279946094
+MLP,"layers=(512, 512, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9853409279946094
+MLP,"layers=(256, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9853409066818215
+MLP,"layers=(256, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9853327999130714
+MLP,"layers=(512, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9853313132729915
+MLP,"layers=(1024, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9853226043384975
+MLP,"layers=(256, 256, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9853209346955626
+MLP,"layers=(1024, 1024, 1024)  act=GELU  drop=0.0  lr=0.0001",0.9853193709097748
+MLP,"layers=(512, 512, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9853140659473174
+MLP,"layers=(256, 512, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9853036232049156
+MLP,"layers=(1024, 256)  act=GELU  drop=0.2  lr=0.0001",0.9852718677680676
+MLP,"layers=(1024, 256, 512)  act=ReLU  drop=0.0  lr=0.0001",0.984057166987888
+MLP,"layers=(1024, 256, 256)  act=SiLU  drop=0.2  lr=0.0001",0.984051159170576
+MLP,"layers=(1024, 256, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9840495132450463
+MLP,"layers=(1024, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9840424286987843
+MLP,"layers=(512, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.9840423670976061
+MLP,"layers=(256, 512)  act=GELU  drop=0.2  lr=0.0001",0.9840418234102399
+MLP,"layers=(512, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9840417617458376
+MLP,"layers=(256, 512, 256)  act=GELU  drop=0.0  lr=0.0001",0.9840417617458376
+MLP,"layers=(1024,)  act=ReLU  drop=0.0  lr=0.0001",0.9840417617458376
+MLP,"layers=(256, 1024, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9840417617458376
+MLP,"layers=(512,)  act=SiLU  drop=0.2  lr=0.0001",0.9840417617458376
+MLP,"layers=(1024, 256, 512)  act=GELU  drop=0.0  lr=0.0001",0.9840417617458376
+MLP,"layers=(256, 1024, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9840406288641582
+MLP,"layers=(1024, 1024, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9840333614741761
+MLP,"layers=(256, 512, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9840333023672437
+MLP,"layers=(256, 1024, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.984033086632459
+MLP,"layers=(512, 1024, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9840326217089156
+MLP,"layers=(256, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9840302572833927
+MLP,"layers=(512, 512, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9840260775722588
+MLP,"layers=(256,)  act=GELU  drop=0.2  lr=0.0001",0.9840241017016873
+MLP,"layers=(512, 1024, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9840239831779012
+MLP,"layers=(256, 512, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9840239831779012
+MLP,"layers=(1024, 512, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9840233435566833
+MLP,"layers=(1024, 256, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.9840229475072204
+MLP,"layers=(512, 1024, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9840223066415343
+MLP,"layers=(1024, 256, 512)  act=ReLU  drop=0.4  lr=0.01",0.9840216145938099
+MLP,"layers=(256, 512)  act=ReLU  drop=0.4  lr=0.01",0.9840165339417329
+MLP,"layers=(256, 512, 256)  act=GELU  drop=0.4  lr=0.0001",0.9840164033705633
+MLP,"layers=(512, 256, 512)  act=GELU  drop=0.0  lr=0.0001",0.984015701430026
+MLP,"layers=(256, 512, 512)  act=GELU  drop=0.0  lr=0.0001",0.984015701430026
+MLP,"layers=(256, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9840154518678009
+MLP,"layers=(1024,)  act=GELU  drop=0.0  lr=0.0001",0.9840154518678009
+MLP,"layers=(256, 512)  act=ReLU  drop=0.0  lr=0.0001",0.9840154518678009
+MLP,"layers=(512,)  act=ReLU  drop=0.2  lr=0.0001",0.9840154518678009
+MLP,"layers=(256,)  act=GELU  drop=0.0  lr=0.0001",0.9840154518678009
+MLP,"layers=(256, 1024, 512)  act=GELU  drop=0.0  lr=0.0001",0.9840154518678009
+MLP,"layers=(256, 1024)  act=GELU  drop=0.0  lr=0.0001",0.9840154518678009
+MLP,"layers=(256, 512, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9840078817685612
+MLP,"layers=(256, 1024, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9840075994662943
+MLP,"layers=(1024, 256, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9840071798280242
+MLP,"layers=(1024, 1024, 256)  act=GELU  drop=0.4  lr=0.0001",0.9840071798280242
+MLP,"layers=(256, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9840068099617333
+MLP,"layers=(256, 256, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9840059627573741
+MLP,"layers=(1024, 1024, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9840056574537427
+MLP,"layers=(1024,)  act=GELU  drop=0.4  lr=0.0001",0.9840055455216128
+MLP,"layers=(512, 1024, 512)  act=GELU  drop=0.4  lr=0.0001",0.984005540618533
+MLP,"layers=(1024, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9840047966072176
+MLP,"layers=(512, 1024)  act=GELU  drop=0.0  lr=0.0001",0.9840041652620248
+MLP,"layers=(512, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9840041060001316
+MLP,"layers=(256, 256, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9840009454689617
+MLP,"layers=(512, 1024, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9839991726727816
+MLP,"layers=(256, 256, 512)  act=GELU  drop=0.0  lr=0.0001",0.9839986485179238
+MLP,"layers=(512, 256, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.983997925264599
+MLP,"layers=(256, 256, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9839976954593915
+MLP,"layers=(1024, 1024, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.9839972829022011
+MLP,"layers=(1024, 1024, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9839972829022011
+MLP,"layers=(1024, 256, 256)  act=GELU  drop=0.4  lr=0.0001",0.9839951878872674
+MLP,"layers=(1024, 256, 512)  act=GELU  drop=0.2  lr=0.0001",0.9839901672043123
+MLP,"layers=(512, 512, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9839898184958487
+MLP,"layers=(512,)  act=GELU  drop=0.4  lr=0.0001",0.9839891001456038
+MLP,"layers=(1024,)  act=SiLU  drop=0.0  lr=0.01",0.9839888561086885
+MLP,"layers=(512, 512, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9839804360800092
+MLP,"layers=(1024, 1024, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.983971843330016
+MLP,"layers=(512, 512, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9839618394653241
+MLP,"layers=(512, 512)  act=SiLU  drop=0.0  lr=0.01",0.9839416696797636
+MLP,"layers=(256, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9839230757458449
+MLP,"layers=(256, 1024, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9827425871724248
+MLP,"layers=(512, 512, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9827387129054505
+MLP,"layers=(512,)  act=GELU  drop=0.2  lr=0.0001",0.9827249004653252
+MLP,"layers=(512, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9827249004653252
+MLP,"layers=(256, 1024, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9827249004653252
+MLP,"layers=(512, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9827238929164479
+SVM,C=100  gamma=0.001  kernel=rbf,0.9827186508883997
+SVM,C=10  gamma=0.001  kernel=rbf,0.9827186508883997
+SVM,C=1000  gamma=0.001  kernel=rbf,0.9827186508883997
+SVM,C=1000  gamma=scale  kernel=rbf,0.9827186508883997
+SVM,C=100  gamma=scale  kernel=rbf,0.9827186508883997
+SVM,C=10  gamma=scale  kernel=rbf,0.9827186508883997
+MLP,"layers=(256, 256, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9827176289230999
+MLP,"layers=(256, 512, 512)  act=SiLU  drop=0.4  lr=0.0001",0.982717223446989
+MLP,"layers=(256, 512, 1024)  act=GELU  drop=0.0  lr=0.0001",0.982717223446989
+MLP,"layers=(512, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9827167722288268
+MLP,"layers=(256, 512, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9827167722288268
+MLP,"layers=(1024, 256, 256)  act=GELU  drop=0.0  lr=0.0001",0.9827153620417635
+MLP,"layers=(256, 512, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.9827087989010248
+MLP,"layers=(512, 256, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9827082749011276
+MLP,"layers=(512, 1024, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9827076810969427
+MLP,"layers=(1024, 256, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9827014533347049
+MLP,"layers=(1024, 256, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9827007513941677
+MLP,"layers=(512, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9827003268528175
+SVM,C=100  gamma=auto  kernel=rbf,0.9826998946998947
+SVM,C=1000  gamma=auto  kernel=rbf,0.9826998946998947
+MLP,"layers=(256, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9826998946998947
+MLP,"layers=(512, 256)  act=GELU  drop=0.0  lr=0.0001",0.9826998946998947
+MLP,"layers=(512,)  act=SiLU  drop=0.0  lr=0.0001",0.9826998946998947
+SVM,C=10  gamma=auto  kernel=rbf,0.9826998946998947
+MLP,"layers=(256,)  act=SiLU  drop=0.0  lr=0.0001",0.9826998946998947
+MLP,"layers=(256,)  act=ReLU  drop=0.2  lr=0.0001",0.9826998946998947
+MLP,"layers=(512,)  act=ReLU  drop=0.0  lr=0.0001",0.9826998946998947
+MLP,"layers=(512, 256, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9826998946998947
+MLP,"layers=(256,)  act=GELU  drop=0.4  lr=0.0001",0.9826998946998947
+MLP,"layers=(1024, 1024, 1024)  act=GELU  drop=0.4  lr=0.0001",0.982698875137104
+MLP,"layers=(1024, 512)  act=GELU  drop=0.2  lr=0.0001",0.9826925325390383
+MLP,"layers=(1024, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9826915158348241
+MLP,"layers=(512, 1024, 256)  act=GELU  drop=0.4  lr=0.0001",0.982691020488049
+MLP,"layers=(512, 256, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9826858662139483
+MLP,"layers=(1024,)  act=GELU  drop=0.2  lr=0.0001",0.9826828091415537
+MLP,"layers=(512, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9826821185344676
+MLP,"layers=(1024,)  act=SiLU  drop=0.2  lr=0.0001",0.9826821185344676
+MLP,"layers=(512, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9826818198224928
+MLP,"layers=(256, 256, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9826818198224928
+MLP,"layers=(256, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9826810965691678
+MLP,"layers=(256, 256)  act=GELU  drop=0.0  lr=0.0001",0.9826810965691678
+MLP,"layers=(256, 512, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9826808667639607
+MLP,"layers=(512, 1024, 256)  act=SiLU  drop=0.2  lr=0.0001",0.98268045420677
+MLP,"layers=(256, 256, 512)  act=GELU  drop=0.4  lr=0.0001",0.9826801529077849
+MLP,"layers=(512, 512)  act=SiLU  drop=0.4  lr=0.01",0.982674382254238
+MLP,"layers=(512, 256, 1024)  act=GELU  drop=0.0  lr=0.0001",0.9826740883472816
+SVM,C=1  gamma=auto  kernel=rbf,0.9826740266828794
+MLP,"layers=(256, 1024, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9826740266828794
+MLP,"layers=(256, 1024, 512)  act=GELU  drop=0.4  lr=0.0001",0.9826729548760513
+MLP,"layers=(256, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9826729548760513
+MLP,"layers=(256, 1024, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9826724988296552
+MLP,"layers=(256, 256, 256)  act=GELU  drop=0.2  lr=0.0001",0.9826712841615142
+MLP,"layers=(512, 512, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9826690133472684
+MLP,"layers=(512, 256, 512)  act=SiLU  drop=0.4  lr=0.0001",0.9826688897263836
+MLP,"layers=(512, 512, 512)  act=GELU  drop=0.2  lr=0.0001",0.9826639843951726
+MLP,"layers=(512, 256, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9826634365250178
+MLP,"layers=(256, 512, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9826617031946413
+MLP,"layers=(256, 1024, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9826615577790053
+MLP,"layers=(512, 256, 256)  act=GELU  drop=0.0  lr=0.0001",0.9826588229914948
+MLP,"layers=(512, 256, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9826588229914948
+MLP,"layers=(256, 256, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9826588229914948
+MLP,"layers=(1024, 512, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9826554681002957
+MLP,"layers=(256, 512, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9826552926539016
+MLP,"layers=(256, 256, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.9826543962934677
+MLP,"layers=(256, 512)  act=SiLU  drop=0.4  lr=0.0001",0.9826524443503747
+MLP,"layers=(256, 512, 512)  act=GELU  drop=0.4  lr=0.0001",0.9826512934412094
+kNN,k=10  metric=cosine,0.9826372673302946
+MLP,"layers=(256, 512, 512)  act=GELU  drop=0.2  lr=0.0001",0.9826344923102879
+MLP,"layers=(1024, 256, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9826340610528994
+MLP,"layers=(512, 512, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9826327154611737
+MLP,"layers=(1024, 512, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9826296799746077
+MLP,"layers=(256, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9826249505072915
+MLP,"layers=(256, 1024)  act=GELU  drop=0.4  lr=0.0001",0.982624801094511
+MLP,"layers=(256, 512, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9826187488748157
+MLP,"layers=(256, 256, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9814269488214707
+MLP,"layers=(1024, 512, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9814098467596186
+MLP,"layers=(1024, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9814070316359359
+MLP,"layers=(1024, 256)  act=GELU  drop=0.0  lr=0.0001",0.9813961883580852
+MLP,"layers=(256, 1024, 256)  act=GELU  drop=0.2  lr=0.0001",0.9813849975303037
+MLP,"layers=(1024, 256, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9813845327922996
+MLP,"layers=(1024, 256)  act=GELU  drop=0.4  lr=0.0001",0.9813843548516595
+MLP,"layers=(1024, 256, 512)  act=SiLU  drop=0.4  lr=0.0001",0.9813841414561603
+MLP,"layers=(1024,)  act=SiLU  drop=0.4  lr=0.0001",0.9813834981573863
+MLP,"layers=(1024,)  act=ReLU  drop=0.4  lr=0.0001",0.9813834981573863
+MLP,"layers=(1024, 256, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9813834981573863
+MLP,"layers=(256, 256, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9813834981573863
+MLP,"layers=(256, 256)  act=GELU  drop=0.2  lr=0.0001",0.9813834981573863
+SVM,C=1  gamma=scale  kernel=rbf,0.9813764875329913
+SVM,C=1  gamma=0.001  kernel=rbf,0.9813764875329913
+MLP,"layers=(1024, 1024, 1024)  act=GELU  drop=0.4  lr=0.01",0.9813764022165157
+MLP,"layers=(512, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9813731294757039
+MLP,"layers=(1024, 512, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9813668824562478
+MLP,"layers=(256, 512, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9813666822928568
+MLP,"layers=(1024, 1024, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9813666522715706
+MLP,"layers=(512, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9813658152362537
+MLP,"layers=(256, 256, 512)  act=ReLU  drop=0.0  lr=0.0001",0.9813578647854344
+MLP,"layers=(256, 256, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9813571979874484
+MLP,"layers=(512, 1024, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9813566199674087
+MLP,"layers=(1024, 1024, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9813562848378363
+MLP,"layers=(1024, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.981352592142508
+MLP,"layers=(512, 256, 1024)  act=ReLU  drop=0.4  lr=0.01",0.981352592142508
+MLP,"layers=(512, 512, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9813488023943573
+MLP,"layers=(512, 1024, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9813487386088545
+MLP,"layers=(512, 512, 256)  act=GELU  drop=0.0  lr=0.0001",0.9813451169740395
+SVM,C=10  gamma=auto  kernel=sigmoid,0.9813392115493225
+SVM,C=100  gamma=auto  kernel=sigmoid,0.9813392115493225
+MLP,"layers=(1024, 512)  act=ReLU  drop=0.0  lr=0.0001",0.9813386394048645
+MLP,"layers=(256, 256, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9813375675980366
+MLP,"layers=(1024, 256, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9813309647890374
+MLP,"layers=(256, 512, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9813302930247473
+MLP,"layers=(256, 1024, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9813293619012327
+MLP,"layers=(512, 256, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9813282388955646
+MLP,"layers=(256, 256, 512)  act=GELU  drop=0.4  lr=0.01",0.9813240413437654
+MLP,"layers=(512,)  act=ReLU  drop=0.0  lr=0.01",0.9813224927408302
+MLP,"layers=(512, 256, 256)  act=GELU  drop=0.4  lr=0.0001",0.9813200693581235
+MLP,"layers=(512, 512, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9813137694133425
+MLP,"layers=(512, 512, 512)  act=SiLU  drop=0.4  lr=0.01",0.981310674366473
+MLP,"layers=(256, 256, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9813063213917558
+MLP,"layers=(512, 512, 1024)  act=GELU  drop=0.0  lr=0.0001",0.9813059364653608
+MLP,"layers=(1024, 1024, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9813007871079492
+MLP,"layers=(256, 256)  act=SiLU  drop=0.4  lr=0.01",0.981297448303363
+MLP,"layers=(1024, 512, 1024)  act=GELU  drop=0.4  lr=0.01",0.9812938260169902
+MLP,"layers=(512, 1024, 512)  act=GELU  drop=0.2  lr=0.0001",0.9812925287388004
+MLP,"layers=(512, 256)  act=GELU  drop=0.2  lr=0.01",0.9812752719232124
+MLP,"layers=(1024, 512)  act=GELU  drop=0.2  lr=0.01",0.9812370863491717
+MLP,"layers=(1024, 512, 256)  act=GELU  drop=0.4  lr=0.0001",0.9812261796982094
+MLP,"layers=(256, 1024, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9801191941786213
+MLP,"layers=(1024, 512, 1024)  act=ReLU  drop=0.2  lr=0.01",0.9800753724996839
+MLP,"layers=(256, 256)  act=ReLU  drop=0.4  lr=0.01",0.9800732194024392
+MLP,"layers=(512, 256, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9800681006399715
+MLP,"layers=(1024, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.980065629327997
+MLP,"layers=(256, 256, 1024)  act=GELU  drop=0.0  lr=0.0001",0.980065629327997
+MLP,"layers=(1024, 512, 512)  act=ReLU  drop=0.0  lr=0.0001",0.9800610396866909
+MLP,"layers=(256, 1024, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9800559571276974
+MLP,"layers=(256, 1024, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9800505567803224
+MLP,"layers=(1024, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9800497121966567
+MLP,"layers=(256, 256)  act=GELU  drop=0.4  lr=0.0001",0.9800424902082261
+MLP,"layers=(512, 1024, 512)  act=ReLU  drop=0.0  lr=0.0001",0.9800413348019781
+MLP,"layers=(512, 256, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9800413348019781
+MLP,"layers=(512,)  act=SiLU  drop=0.4  lr=0.0001",0.9800413348019781
+MLP,"layers=(512, 256, 1024)  act=GELU  drop=0.2  lr=0.01",0.9800396823603787
+MLP,"layers=(512, 512, 512)  act=GELU  drop=0.4  lr=0.01",0.9800387340733943
+SVM,C=0.001  kernel=linear,0.9800332075587546
+SVM,C=1  kernel=linear,0.9800332075587546
+SVM,C=0.01  kernel=linear,0.9800332075587546
+SVM,C=100  kernel=linear,0.9800332075587546
+SVM,C=100  gamma=0.0001  kernel=rbf,0.9800332075587546
+SVM,C=1000  kernel=linear,0.9800332075587546
+SVM,C=10  kernel=linear,0.9800332075587546
+SVM,C=0.1  kernel=linear,0.9800332075587546
+SVM,C=1000  gamma=0.0001  kernel=rbf,0.9800332075587546
+SVM,C=10  gamma=0.0001  kernel=rbf,0.9800332075587546
+MLP,"layers=(512, 512, 512)  act=SiLU  drop=0.4  lr=0.0001",0.9800330129206731
+MLP,"layers=(512, 1024, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9800325144880017
+MLP,"layers=(512, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9800293365324629
+MLP,"layers=(512, 256, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9800290094027208
+MLP,"layers=(256, 256, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9800289712827596
+MLP,"layers=(512, 256, 512)  act=GELU  drop=0.4  lr=0.0001",0.9800245269284915
+MLP,"layers=(512, 1024, 256)  act=GELU  drop=0.2  lr=0.0001",0.9800239855804103
+MLP,"layers=(1024, 512, 256)  act=ReLU  drop=0.4  lr=0.0001",0.980019698768647
+MLP,"layers=(1024, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9800189250463439
+MLP,"layers=(512, 1024, 512)  act=SiLU  drop=0.4  lr=0.0001",0.980016868397432
+MLP,"layers=(1024, 512, 256)  act=GELU  drop=0.0  lr=0.0001",0.9800161686622758
+MLP,"layers=(1024, 512)  act=ReLU  drop=0.2  lr=0.01",0.9800154518678009
+MLP,"layers=(512, 512, 512)  act=GELU  drop=0.4  lr=0.0001",0.9800144915036793
+MLP,"layers=(512, 1024, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.9800140796355087
+MLP,"layers=(1024, 512, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9800132744098137
+MLP,"layers=(1024, 1024, 512)  act=GELU  drop=0.4  lr=0.0001",0.9800082060173123
+MLP,"layers=(1024, 1024, 256)  act=GELU  drop=0.2  lr=0.0001",0.9800054813566397
+MLP,"layers=(256, 1024, 512)  act=GELU  drop=0.2  lr=0.0001",0.9800045738240406
+MLP,"layers=(1024, 256)  act=ReLU  drop=0.4  lr=0.01",0.9800034411127435
+MLP,"layers=(256,)  act=SiLU  drop=0.0  lr=0.01",0.9800026290673668
+MLP,"layers=(512, 1024)  act=ReLU  drop=0.2  lr=0.01",0.9800017652687986
+MLP,"layers=(256, 1024, 1024)  act=GELU  drop=0.0  lr=0.0001",0.9800006283730354
+MLP,"layers=(1024, 512, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9799980413858759
+MLP,"layers=(1024, 1024, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9799979327251487
+MLP,"layers=(512, 256, 256)  act=GELU  drop=0.4  lr=0.01",0.9799968062432615
+MLP,"layers=(512, 512, 512)  act=ReLU  drop=0.4  lr=0.01",0.9799957305501645
+MLP,"layers=(256, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9799941995253454
+MLP,"layers=(1024, 512, 512)  act=GELU  drop=0.4  lr=0.0001",0.9799932745138555
+MLP,"layers=(512, 256, 512)  act=SiLU  drop=0.4  lr=0.01",0.9799929571722694
+MLP,"layers=(512,)  act=ReLU  drop=0.4  lr=0.0001",0.9799927290462102
+MLP,"layers=(256, 1024, 512)  act=ReLU  drop=0.0  lr=0.0001",0.9799927290462102
+MLP,"layers=(256, 512, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9799927290462102
+MLP,"layers=(256, 256, 256)  act=GELU  drop=0.4  lr=0.0001",0.9799889197961299
+MLP,"layers=(256, 512, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9799882065039254
+SVM,C=1  gamma=0.001  kernel=sigmoid,0.9799847105902039
+SVM,C=1  gamma=scale  kernel=sigmoid,0.9799847105902039
+MLP,"layers=(1024, 1024, 512)  act=SiLU  drop=0.4  lr=0.0001",0.9799807397582878
+MLP,"layers=(256, 256, 512)  act=GELU  drop=0.2  lr=0.0001",0.9799796134376859
+MLP,"layers=(1024, 512, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.9799795541757931
+MLP,"layers=(1024, 256, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9799789967830371
+MLP,"layers=(256, 1024, 256)  act=GELU  drop=0.4  lr=0.0001",0.9799767392651162
+MLP,"layers=(256,)  act=SiLU  drop=0.4  lr=0.0001",0.9799757000433692
+MLP,"layers=(256, 1024, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9799753529749511
+MLP,"layers=(256,)  act=ReLU  drop=0.2  lr=0.01",0.9799733208956509
+MLP,"layers=(1024, 1024, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9799732367779603
+MLP,"layers=(512, 512, 1024)  act=GELU  drop=0.4  lr=0.01",0.9799699859832312
+MLP,"layers=(1024, 1024, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9799698870551773
+MLP,"layers=(1024, 512, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9799656097640794
+MLP,"layers=(512, 1024, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9799616000152425
+kNN,k=15  metric=cosine,0.9799609755884664
+MLP,"layers=(1024, 512, 512)  act=ReLU  drop=0.4  lr=0.01",0.979955327932488
+SVM,C=0.1  gamma=auto  kernel=rbf,0.9799526588013866
+MLP,"layers=(1024, 1024, 256)  act=GELU  drop=0.0  lr=0.0001",0.979947543848198
+MLP,"layers=(512, 512)  act=ReLU  drop=0.2  lr=0.01",0.9799388826382633
+MLP,"layers=(512, 512, 256)  act=GELU  drop=0.2  lr=0.0001",0.9799353786091269
+SVM,C=1  gamma=0.0001  kernel=rbf,0.9799316722368648
+MLP,"layers=(512, 256)  act=GELU  drop=0.4  lr=0.01",0.9799157938633085
+MLP,"layers=(256, 512, 512)  act=GELU  drop=0.4  lr=0.01",0.9799057996890551
+MLP,"layers=(256, 512, 1024)  act=ReLU  drop=0.2  lr=0.01",0.979765595513463
+MLP,"layers=(1024, 256, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9788176910667804
+MLP,"layers=(1024, 256)  act=ReLU  drop=0.2  lr=0.0001",0.9788048575972788
+MLP,"layers=(256, 512)  act=SiLU  drop=0.0  lr=0.01",0.9787708014445667
+SVM,C=10  gamma=0.001  kernel=sigmoid,0.978757452337308
+MLP,"layers=(256, 1024, 256)  act=SiLU  drop=0.4  lr=0.0001",0.978751578265988
+MLP,"layers=(1024, 256, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9787330216207444
+MLP,"layers=(512, 1024, 1024)  act=GELU  drop=0.2  lr=0.0001",0.978724075687473
+MLP,"layers=(1024, 1024)  act=SiLU  drop=0.4  lr=0.01",0.978721632133171
+MLP,"layers=(1024, 256, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9787175103993134
+MLP,"layers=(512, 256, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9787167722288268
+CatBoost,depth=4  iterations=500  learning_rate=0.1,0.9787151886939947
+MLP,"layers=(512, 512, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9787071242998981
+MLP,"layers=(256, 256, 512)  act=SiLU  drop=0.4  lr=0.0001",0.9787065341183137
+MLP,"layers=(512, 512, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9787052300354614
+MLP,"layers=(256,)  act=ReLU  drop=0.4  lr=0.01",0.9787013846944729
+MLP,"layers=(256, 512, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9786991121846768
+MLP,"layers=(1024, 1024, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9786913642166408
+MLP,"layers=(1024, 1024, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9786908868921403
+MLP,"layers=(512, 1024, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9786901187635912
+kNN,k=5  metric=cosine,0.9786895686173748
+MLP,"layers=(1024, 1024, 512)  act=GELU  drop=0.0  lr=0.0001",0.978684365204
+MLP,"layers=(512,)  act=ReLU  drop=0.2  lr=0.01",0.9786833167929007
+MLP,"layers=(256, 1024)  act=ReLU  drop=0.0  lr=0.01",0.9786814521405265
+MLP,"layers=(512, 256, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9786805038870128
+MLP,"layers=(256, 512)  act=ReLU  drop=0.2  lr=0.01",0.9786792615368706
+MLP,"layers=(1024, 512, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9786767094816514
+MLP,"layers=(512, 1024, 256)  act=GELU  drop=0.0  lr=0.0001",0.9786736613401984
+MLP,"layers=(256, 256, 512)  act=ReLU  drop=0.4  lr=0.01",0.9786716975802346
+MLP,"layers=(512, 256, 512)  act=ReLU  drop=0.4  lr=0.01",0.9786716412798566
+MLP,"layers=(1024, 1024, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9786704267730011
+MLP,"layers=(256, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9786704267730011
+MLP,"layers=(1024, 256)  act=SiLU  drop=0.4  lr=0.01",0.978669910010385
+MLP,"layers=(256, 1024, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9786675575964887
+MLP,"layers=(512, 512)  act=GELU  drop=0.4  lr=0.01",0.9786660301947454
+MLP,"layers=(256, 1024)  act=GELU  drop=0.0  lr=0.01",0.9786567130079078
+MLP,"layers=(1024, 512, 1024)  act=GELU  drop=0.0  lr=0.0001",0.9786554110164023
+MLP,"layers=(1024, 1024, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9786553970092037
+MLP,"layers=(1024, 512, 256)  act=ReLU  drop=0.0  lr=0.0001",0.9786550031398484
+SVM,C=1  degree=2  gamma=scale  kernel=poly,0.9786548731705921
+MLP,"layers=(512, 256, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9786462185949111
+MLP,"layers=(512, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9786405193941333
+SVM,C=1  gamma=auto  kernel=sigmoid,0.978637372152961
+MLP,"layers=(512, 256, 256)  act=GELU  drop=0.2  lr=0.0001",0.9786370305989682
+MLP,"layers=(1024, 256, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9786369830049885
+MLP,"layers=(1024, 512)  act=SiLU  drop=0.4  lr=0.0001",0.9786307653593367
+SVM,C=0.1  gamma=0.001  kernel=sigmoid,0.9786272871637967
+MLP,"layers=(1024, 512, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9786248794437952
+MLP,"layers=(1024, 256, 256)  act=GELU  drop=0.4  lr=0.01",0.9786210389768278
+MLP,"layers=(512, 256, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9786169770458003
+kNN,k=5  metric=euclidean,0.9786166991601726
+MLP,"layers=(1024, 256)  act=SiLU  drop=0.2  lr=0.0001",0.9786161950474291
+MLP,"layers=(256, 512, 256)  act=GELU  drop=0.2  lr=0.0001",0.9786146824700311
+kNN,k=10  metric=euclidean,0.9786108913425349
+kNN,k=20  metric=cosine,0.9786031349237522
+SVM,C=0.1  gamma=scale  kernel=sigmoid,0.9785886186245716
+MLP,"layers=(256,)  act=GELU  drop=0.4  lr=0.01",0.9785843994632408
+MLP,"layers=(256, 1024)  act=GELU  drop=0.2  lr=0.01",0.9785690505413698
+MLP,"layers=(512, 256, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9785492221192609
+MLP,"layers=(1024, 512, 256)  act=GELU  drop=0.2  lr=0.0001",0.977423865322185
+MLP,"layers=(1024, 256)  act=GELU  drop=0.2  lr=0.01",0.9774132675429541
+MLP,"layers=(256, 512)  act=SiLU  drop=0.4  lr=0.01",0.9774031657751696
+MLP,"layers=(256, 1024)  act=ReLU  drop=0.2  lr=0.01",0.9773894614916341
+MLP,"layers=(1024, 1024, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9773833347583759
+MLP,"layers=(256, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9773739664129593
+CatBoost,depth=4  iterations=200  learning_rate=0.1,0.9773719488829415
+MLP,"layers=(1024, 512, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9773711121746456
+MLP,"layers=(1024, 256, 512)  act=SiLU  drop=0.4  lr=0.01",0.9773696341268869
+SVM,C=10  gamma=scale  kernel=sigmoid,0.9773666822928568
+MLP,"layers=(512, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9773659995292161
+MLP,"layers=(512, 512)  act=GELU  drop=0.4  lr=0.0001",0.977362232145307
+MLP,"layers=(512, 256, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9773617566801942
+MLP,"layers=(512, 512, 1024)  act=ReLU  drop=0.4  lr=0.0001",0.9773543167084832
+MLP,"layers=(1024, 512, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9773525579436116
+LightGBM,learning_rate=0.05  n_estimators=500  num_leaves=127,0.9773517074255689
+MLP,"layers=(256, 1024, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9773499712381554
+LightGBM,learning_rate=0.05  n_estimators=500  num_leaves=63,0.9773460030704235
+MLP,"layers=(1024, 256, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9773420594809531
+MLP,"layers=(512, 512, 1024)  act=GELU  drop=0.2  lr=0.01",0.9773316169512701
+MLP,"layers=(256,)  act=SiLU  drop=0.4  lr=0.01",0.9773310546944467
+MLP,"layers=(512, 512, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9773262953759957
+MLP,"layers=(256, 1024, 256)  act=ReLU  drop=0.4  lr=0.0001",0.9773249952860393
+MLP,"layers=(512, 256, 512)  act=GELU  drop=0.4  lr=0.01",0.9773170163029478
+MLP,"layers=(512, 256, 512)  act=SiLU  drop=0.2  lr=0.0001",0.977313633331544
+MLP,"layers=(512, 256)  act=GELU  drop=0.2  lr=0.0001",0.9773095687153139
+SVM,C=1  degree=2  gamma=0.001  kernel=poly,0.977308848748495
+SVM,C=0.01  degree=2  gamma=0.01  kernel=poly,0.977308848748495
+MLP,"layers=(1024, 256, 512)  act=GELU  drop=0.4  lr=0.0001",0.9773003128230903
+MLP,"layers=(1024, 512, 512)  act=SiLU  drop=0.4  lr=0.0001",0.9772971672628767
+SVM,C=0.1  gamma=auto  kernel=sigmoid,0.977294587448508
+MLP,"layers=(512, 1024, 1024)  act=GELU  drop=0.0  lr=0.0001",0.9772825630021208
+MLP,"layers=(512, 512, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9772750222060267
+MLP,"layers=(256, 512)  act=GELU  drop=0.0  lr=0.01",0.9772740665836998
+kNN,k=15  metric=euclidean,0.9772456076443164
+MLP,"layers=(512, 256, 1024)  act=GELU  drop=0.4  lr=0.01",0.9762055559581565
+MLP,"layers=(1024, 256, 1024)  act=GELU  drop=0.4  lr=0.01",0.9761676400582822
+MLP,"layers=(512, 512, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9761554742324015
+MLP,"layers=(512, 1024)  act=SiLU  drop=0.4  lr=0.0001",0.9761129220777396
+MLP,"layers=(512, 256, 512)  act=ReLU  drop=0.0  lr=0.0001",0.976074471430149
+MLP,"layers=(512, 512)  act=ReLU  drop=0.4  lr=0.01",0.9760616221756075
+MLP,"layers=(1024, 512)  act=GELU  drop=0.4  lr=0.0001",0.9760529452755777
+MLP,"layers=(1024, 512)  act=ReLU  drop=0.4  lr=0.01",0.976052563163225
+MLP,"layers=(256,)  act=GELU  drop=0.2  lr=0.01",0.9760518936604479
+MLP,"layers=(1024, 256, 512)  act=GELU  drop=0.4  lr=0.01",0.976048334563304
+MLP,"layers=(1024, 512, 1024)  act=ReLU  drop=0.2  lr=0.0001",0.9760454577854735
+SVM,C=10  degree=2  gamma=auto  kernel=poly,0.9760217857644045
+SVM,C=100  degree=2  gamma=0.001  kernel=poly,0.9760217857644045
+SVM,C=1  degree=2  gamma=0.01  kernel=poly,0.9760217857644045
+SVM,C=0.1  degree=2  gamma=0.01  kernel=poly,0.9760217857644045
+SVM,C=100  degree=2  gamma=scale  kernel=poly,0.9760217857644045
+SVM,C=100  degree=2  gamma=0.01  kernel=poly,0.9760217857644045
+SVM,C=10  degree=2  gamma=0.001  kernel=poly,0.9760217857644045
+SVM,C=10  degree=2  gamma=scale  kernel=poly,0.9760217857644045
+SVM,C=10  degree=2  gamma=0.01  kernel=poly,0.9760217857644045
+SVM,C=100  degree=2  gamma=auto  kernel=poly,0.9760217857644045
+MLP,"layers=(1024, 512, 512)  act=GELU  drop=0.4  lr=0.01",0.9760190541400504
+MLP,"layers=(512,)  act=SiLU  drop=0.2  lr=0.01",0.9760132539353402
+MLP,"layers=(1024, 1024, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9760120681230811
+LightGBM,learning_rate=0.1  n_estimators=200  num_leaves=127,0.9760096602546615
+LightGBM,learning_rate=0.1  n_estimators=500  num_leaves=127,0.9760096602546615
+LightGBM,learning_rate=0.05  n_estimators=200  num_leaves=63,0.9760035410030403
+MLP,"layers=(512, 1024, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9760028602389874
+LightGBM,learning_rate=0.05  n_estimators=500  num_leaves=31,0.9759999907947605
+MLP,"layers=(512, 1024, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9759958948739292
+MLP,"layers=(256, 256)  act=ReLU  drop=0.2  lr=0.01",0.9759952786377623
+MLP,"layers=(1024, 512, 512)  act=SiLU  drop=0.4  lr=0.01",0.9759935688708694
+MLP,"layers=(1024,)  act=SiLU  drop=0.0  lr=0.0001",0.9759922403586285
+MLP,"layers=(1024, 1024)  act=SiLU  drop=0.2  lr=0.0001",0.9759869590345849
+MLP,"layers=(256, 512, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9759869300796454
+MLP,"layers=(256, 1024, 512)  act=SiLU  drop=0.4  lr=0.0001",0.975986292142796
+MLP,"layers=(1024,)  act=ReLU  drop=0.0  lr=0.01",0.9759860051293135
+MLP,"layers=(512, 512, 1024)  act=ReLU  drop=0.2  lr=0.01",0.9759843803983419
+MLP,"layers=(1024, 256, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9759772436692807
+MLP,"layers=(256, 256, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9759646555992704
+MLP,"layers=(1024, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9759371932826032
+MLP,"layers=(512,)  act=SiLU  drop=0.4  lr=0.01",0.9759296140403513
+MLP,"layers=(512, 512, 256)  act=GELU  drop=0.4  lr=0.0001",0.9759295217979428
+MLP,"layers=(1024, 512)  act=SiLU  drop=0.0  lr=0.01",0.9759240391588713
+kNN,k=20  metric=euclidean,0.9759078092020556
+MLP,"layers=(1024, 512)  act=GELU  drop=0.0  lr=0.01",0.9758915250684707
+MLP,"layers=(1024, 256, 1024)  act=GELU  drop=0.2  lr=0.01",0.9756960562798919
+MLP,"layers=(1024, 256, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9748237772894369
+MLP,"layers=(1024, 1024)  act=ReLU  drop=0.2  lr=0.01",0.9747741876520477
+MLP,"layers=(512, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9747622541758992
+MLP,"layers=(1024, 1024)  act=ReLU  drop=0.0  lr=0.0001",0.9747421104640903
+CatBoost,depth=4  iterations=500  learning_rate=0.05,0.9747418492403104
+MLP,"layers=(256, 512, 1024)  act=GELU  drop=0.4  lr=0.01",0.9747329928799375
+MLP,"layers=(512, 256, 256)  act=SiLU  drop=0.4  lr=0.01",0.9747195241924963
+MLP,"layers=(512, 512, 1024)  act=GELU  drop=0.4  lr=0.0001",0.9747067070641372
+LightGBM,learning_rate=0.05  n_estimators=200  num_leaves=127,0.9747037349443339
+LightGBM,learning_rate=0.05  n_estimators=200  num_leaves=31,0.9747037349443339
+MLP,"layers=(1024,)  act=ReLU  drop=0.4  lr=0.01",0.9746919761735998
+MLP,"layers=(1024, 512, 512)  act=GELU  drop=0.0  lr=0.0001",0.9746865615732055
+SVM,C=0.1  gamma=scale  kernel=rbf,0.9746798048868975
+MLP,"layers=(256, 256, 512)  act=GELU  drop=0.2  lr=0.01",0.9746792070465254
+MLP,"layers=(256, 256)  act=GELU  drop=0.4  lr=0.01",0.974671171555556
+MLP,"layers=(256, 512, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9746698000852293
+MLP,"layers=(256, 256, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9746418502373038
+MLP,"layers=(256, 1024, 1024)  act=ReLU  drop=0.4  lr=0.01",0.974631860109178
+MLP,"layers=(256, 1024)  act=GELU  drop=0.4  lr=0.01",0.9746268882834459
+MLP,"layers=(512, 256)  act=SiLU  drop=0.4  lr=0.01",0.9746237768631407
+MLP,"layers=(512, 1024)  act=GELU  drop=0.0  lr=0.01",0.9745874954264776
+MLP,"layers=(256, 512)  act=GELU  drop=0.2  lr=0.01",0.9745821957670678
+MLP,"layers=(1024, 512, 1024)  act=GELU  drop=0.2  lr=0.01",0.9745716053743703
+MLP,"layers=(512, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9745522442747557
+MLP,"layers=(512, 1024, 1024)  act=GELU  drop=0.4  lr=0.01",0.9745401128072975
+SVM,C=0.01  gamma=auto  kernel=sigmoid,0.973524808915352
+MLP,"layers=(512, 256)  act=GELU  drop=0.4  lr=0.0001",0.9734863449678234
+MLP,"layers=(512, 1024, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9734831782349616
+MLP,"layers=(1024,)  act=SiLU  drop=0.2  lr=0.01",0.9734687153459892
+SVM,C=1  degree=2  gamma=auto  kernel=poly,0.9734560655787158
+MLP,"layers=(1024, 512, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9734511666159474
+SVM,C=0.01  gamma=0.0001  kernel=rbf,0.9734452493019151
+SVM,C=0.1  gamma=0.0001  kernel=rbf,0.9734381637451984
+SVM,C=0.01  gamma=auto  kernel=rbf,0.9734323185300333
+MLP,"layers=(1024, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9734140835483215
+MLP,"layers=(1024, 256)  act=SiLU  drop=0.2  lr=0.01",0.9733683536906917
+MLP,"layers=(1024, 256, 256)  act=SiLU  drop=0.4  lr=0.01",0.9733569488292684
+MLP,"layers=(256, 256, 1024)  act=ReLU  drop=0.2  lr=0.01",0.9733565339327924
+SVM,C=0.1  gamma=0.001  kernel=rbf,0.9733400311540151
+MLP,"layers=(256, 256, 1024)  act=GELU  drop=0.4  lr=0.01",0.9733398584910234
+MLP,"layers=(256, 512)  act=SiLU  drop=0.2  lr=0.01",0.9733343011465362
+MLP,"layers=(1024, 1024)  act=GELU  drop=0.2  lr=0.0001",0.9733333303379178
+CatBoost,depth=6  iterations=500  learning_rate=0.05,0.9733319094007018
+MLP,"layers=(1024, 256)  act=SiLU  drop=0.4  lr=0.0001",0.9733286240184792
+MLP,"layers=(256, 256, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9733234330346909
+MLP,"layers=(512,)  act=ReLU  drop=0.4  lr=0.01",0.9733196189352824
+LightGBM,learning_rate=0.1  n_estimators=200  num_leaves=31,0.9733151812220713
+LightGBM,learning_rate=0.1  n_estimators=500  num_leaves=31,0.9733151812220713
+MLP,"layers=(1024, 256)  act=GELU  drop=0.4  lr=0.01",0.9733144869006939
+MLP,"layers=(1024, 1024, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9733104801710858
+MLP,"layers=(1024, 512, 512)  act=GELU  drop=0.2  lr=0.0001",0.9733074355945689
+MLP,"layers=(512, 256)  act=ReLU  drop=0.4  lr=0.01",0.9733013866513072
+MLP,"layers=(256,)  act=GELU  drop=0.0  lr=0.01",0.973294682152291
+MLP,"layers=(256, 512)  act=GELU  drop=0.4  lr=0.01",0.9732865540404606
+MLP,"layers=(1024, 1024)  act=GELU  drop=0.0  lr=0.01",0.9732734572082775
+MLP,"layers=(256, 1024, 1024)  act=GELU  drop=0.4  lr=0.01",0.9732698144079086
+MLP,"layers=(512, 256)  act=SiLU  drop=0.2  lr=0.01",0.9732697339247874
+MLP,"layers=(256,)  act=SiLU  drop=0.2  lr=0.01",0.973261581364843
+MLP,"layers=(1024, 512)  act=GELU  drop=0.4  lr=0.01",0.9732477950659324
+MLP,"layers=(1024, 512)  act=SiLU  drop=0.4  lr=0.01",0.973188372180551
+MLP,"layers=(512, 256, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9731577469453023
+MLP,"layers=(1024, 1024)  act=GELU  drop=0.4  lr=0.01",0.9731154993616958
+MLP,"layers=(256, 256, 1024)  act=ReLU  drop=0.0  lr=0.01",0.9722433640001403
+MLP,"layers=(256, 512, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9722009425991902
+MLP,"layers=(256, 256)  act=SiLU  drop=0.2  lr=0.01",0.9721019128806999
+MLP,"layers=(1024, 1024)  act=GELU  drop=0.2  lr=0.01",0.9720742584067847
+SVM,C=0.01  gamma=0.001  kernel=sigmoid,0.9720592054898052
+CatBoost,depth=6  iterations=500  learning_rate=0.1,0.9720407761022243
+CatBoost,depth=4  iterations=200  learning_rate=0.05,0.9720249227259755
+LightGBM,learning_rate=0.1  n_estimators=500  num_leaves=63,0.9720098573933137
+LightGBM,learning_rate=0.1  n_estimators=200  num_leaves=63,0.9720098573933137
+MLP,"layers=(512, 256, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9720033955781436
+SVM,C=100  gamma=scale  kernel=sigmoid,0.9719975547760784
+MLP,"layers=(1024, 512, 1024)  act=SiLU  drop=0.4  lr=0.01",0.97199384295965
+MLP,"layers=(1024,)  act=SiLU  drop=0.4  lr=0.01",0.9719803575824506
+MLP,"layers=(1024, 1024)  act=SiLU  drop=0.0  lr=0.01",0.9719786973202341
+MLP,"layers=(256, 256, 512)  act=SiLU  drop=0.4  lr=0.01",0.9719729943873174
+MLP,"layers=(512, 512)  act=GELU  drop=0.2  lr=0.01",0.9719675806450141
+MLP,"layers=(1024, 1024, 1024)  act=ReLU  drop=0.2  lr=0.01",0.9719369514281022
+MLP,"layers=(512,)  act=GELU  drop=0.0  lr=0.01",0.9719322010748974
+MLP,"layers=(256, 256, 1024)  act=GELU  drop=0.2  lr=0.01",0.9719040442407582
+MLP,"layers=(256, 1024, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9718600973482665
+MLP,"layers=(512, 1024)  act=GELU  drop=0.4  lr=0.01",0.9718435161854448
+MLP,"layers=(512, 256, 512)  act=GELU  drop=0.2  lr=0.0001",0.9718046891974617
+MLP,"layers=(1024, 512)  act=ReLU  drop=0.4  lr=0.0001",0.9717659761923063
+MLP,"layers=(512, 256, 256)  act=ReLU  drop=0.4  lr=0.01",0.9709093360291714
+MLP,"layers=(1024,)  act=GELU  drop=0.0  lr=0.01",0.9708781542295379
+MLP,"layers=(1024,)  act=GELU  drop=0.4  lr=0.01",0.9708307347362447
+MLP,"layers=(512, 256, 1024)  act=SiLU  drop=0.0  lr=0.0001",0.9707448156766373
+MLP,"layers=(256,)  act=ReLU  drop=0.0  lr=0.01",0.9707346514488813
+SVM,C=100  gamma=0.001  kernel=sigmoid,0.9707164142549588
+SVM,C=100  degree=3  gamma=0.01  kernel=poly,0.9706634523949961
+SVM,C=100  degree=3  gamma=scale  kernel=poly,0.9706634523949961
+SVM,C=0.1  degree=3  gamma=0.01  kernel=poly,0.9706634523949961
+SVM,C=100  degree=3  gamma=0.001  kernel=poly,0.9706634523949961
+SVM,C=10  degree=3  gamma=0.01  kernel=poly,0.9706634523949961
+SVM,C=10  degree=3  gamma=scale  kernel=poly,0.9706634523949961
+SVM,C=100  degree=3  gamma=auto  kernel=poly,0.9706634523949961
+SVM,C=10  degree=3  gamma=0.001  kernel=poly,0.9706634523949961
+SVM,C=0.01  degree=3  gamma=0.01  kernel=poly,0.9706634523949961
+SVM,C=1  degree=3  gamma=0.01  kernel=poly,0.9706634523949961
+MLP,"layers=(512, 256, 512)  act=GELU  drop=0.2  lr=0.01",0.9706109050620012
+MLP,"layers=(512, 256)  act=ReLU  drop=0.2  lr=0.01",0.9705872397824648
+MLP,"layers=(1024, 256, 1024)  act=ReLU  drop=0.2  lr=0.01",0.9705828563571713
+MLP,"layers=(512, 1024)  act=SiLU  drop=0.4  lr=0.01",0.9705658978162933
+MLP,"layers=(1024, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9705030096076177
+MLP,"layers=(256, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9704078622549159
+MLP,"layers=(256, 256, 1024)  act=SiLU  drop=0.2  lr=0.01",0.9695735690862457
+MLP,"layers=(512, 1024)  act=GELU  drop=0.2  lr=0.01",0.9695647148030412
+SVM,C=0.1  degree=2  gamma=0.001  kernel=poly,0.9695456982111882
+SVM,C=0.01  gamma=scale  kernel=sigmoid,0.9694208147579473
+MLP,"layers=(512, 1024, 512)  act=ReLU  drop=0.2  lr=0.0001",0.9693809567131205
+MLP,"layers=(256, 1024)  act=SiLU  drop=0.0  lr=0.01",0.9693511794841767
+MLP,"layers=(512, 1024)  act=SiLU  drop=0.0  lr=0.01",0.9693348135037363
+MLP,"layers=(512,)  act=SiLU  drop=0.0  lr=0.01",0.9692719302006969
+CatBoost,depth=6  iterations=200  learning_rate=0.05,0.9692570713450334
+MLP,"layers=(256, 256, 512)  act=SiLU  drop=0.0  lr=0.0001",0.9692350484288269
+MLP,"layers=(256, 256)  act=GELU  drop=0.2  lr=0.01",0.9681160371338869
+SVM,C=0.01  gamma=scale  kernel=rbf,0.9680865786189746
+MLP,"layers=(256, 256)  act=ReLU  drop=0.0  lr=0.01",0.9680722284922579
+CatBoost,depth=6  iterations=200  learning_rate=0.1,0.9680560764859045
+MLP,"layers=(512,)  act=GELU  drop=0.4  lr=0.01",0.9679833414357486
+MLP,"layers=(1024, 512)  act=SiLU  drop=0.2  lr=0.01",0.9679379163601249
+MLP,"layers=(1024, 1024, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9679363050974338
+MLP,"layers=(512, 1024, 1024)  act=GELU  drop=0.2  lr=0.01",0.9678995678960564
+SVM,C=1  degree=3  gamma=0.001  kernel=poly,0.967080559653793
+MLP,"layers=(1024,)  act=ReLU  drop=0.2  lr=0.01",0.9668826299059436
+MLP,"layers=(512, 256, 512)  act=ReLU  drop=0.2  lr=0.01",0.9664714322585718
+SVM,C=0.1  degree=2  gamma=scale  kernel=poly,0.9658931931498855
+MLP,"layers=(1024, 512, 1024)  act=ReLU  drop=0.4  lr=0.01",0.9652700859894093
+SVM,C=10  degree=3  gamma=auto  kernel=poly,0.9647259799020318
+SVM,C=1  degree=3  gamma=scale  kernel=poly,0.9646076425903075
+MLP,"layers=(512, 256, 1024)  act=ReLU  drop=0.2  lr=0.01",0.9641679341408379
+MLP,"layers=(512, 512)  act=ReLU  drop=0.0  lr=0.01",0.9640051915380826
+MLP,"layers=(1024, 512)  act=ReLU  drop=0.0  lr=0.01",0.9639298833253104
+SVM,C=0.01  gamma=0.001  kernel=rbf,0.9628086061994612
+MLP,"layers=(1024, 256, 512)  act=SiLU  drop=0.2  lr=0.0001",0.9628085556590671
+MLP,"layers=(1024,)  act=GELU  drop=0.2  lr=0.01",0.9625553208624766
+MLP,"layers=(1024, 256)  act=ReLU  drop=0.2  lr=0.01",0.9617920152404872
+MLP,"layers=(512,)  act=GELU  drop=0.2  lr=0.01",0.9612863174357876
+MLP,"layers=(256, 512)  act=ReLU  drop=0.0  lr=0.01",0.9603986671004117
+MLP,"layers=(512, 512)  act=SiLU  drop=0.2  lr=0.01",0.9590872343815298
+MLP,"layers=(1024, 256, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9588898068293972
+MLP,"layers=(1024, 1024, 512)  act=SiLU  drop=0.4  lr=0.01",0.9584084698809763
+MLP,"layers=(512, 512)  act=GELU  drop=0.0  lr=0.01",0.9580662359389046
+MLP,"layers=(512, 512)  act=GELU  drop=0.2  lr=0.0001",0.95642639514528
+MLP,"layers=(256, 256)  act=SiLU  drop=0.0  lr=0.01",0.9556921435294072
+MLP,"layers=(256, 1024, 1024)  act=ReLU  drop=0.0  lr=0.01",0.9547957589241807
+MLP,"layers=(512, 256, 1024)  act=ReLU  drop=0.0  lr=0.01",0.9534933822257834
+SVM,C=0.1  degree=4  gamma=0.01  kernel=poly,0.9517810943828509
+SVM,C=1  degree=4  gamma=0.01  kernel=poly,0.9517810943828509
+SVM,C=100  degree=4  gamma=0.01  kernel=poly,0.9517810943828509
+SVM,C=100  degree=4  gamma=0.001  kernel=poly,0.9517810943828509
+SVM,C=10  degree=4  gamma=0.01  kernel=poly,0.9517810943828509
+SVM,C=100  degree=4  gamma=scale  kernel=poly,0.9517810943828509
+SVM,C=0.01  degree=4  gamma=0.01  kernel=poly,0.9517810943828509
+SVM,C=10  degree=4  gamma=0.001  kernel=poly,0.9517343223101019
+MLP,"layers=(256, 256, 512)  act=ReLU  drop=0.0  lr=0.01",0.9512028185980762
+SVM,C=10  degree=4  gamma=scale  kernel=poly,0.9503577812439608
+SVM,C=100  degree=4  gamma=auto  kernel=poly,0.9492638372380054
+SVM,C=0.1  degree=3  gamma=0.001  kernel=poly,0.9473556194342184
+MLP,"layers=(512, 256)  act=ReLU  drop=0.0  lr=0.01",0.9464216714283871
+SVM,C=1  degree=4  gamma=0.001  kernel=poly,0.9450921093897808
+MLP,"layers=(512, 1024)  act=ReLU  drop=0.0  lr=0.01",0.9441654535858653
+MLP,"layers=(512, 256)  act=SiLU  drop=0.0  lr=0.01",0.9440999651087104
+MLP,"layers=(1024, 512, 256)  act=SiLU  drop=0.0  lr=0.0001",0.9428567317454463
+MLP,"layers=(256, 512, 1024)  act=GELU  drop=0.2  lr=0.01",0.9422556924303163
+MLP,"layers=(1024, 1024, 512)  act=ReLU  drop=0.0  lr=0.0001",0.941474093189447
+MLP,"layers=(512, 512, 1024)  act=ReLU  drop=0.0  lr=0.01",0.9410990000787531
+MLP,"layers=(1024, 256)  act=ReLU  drop=0.0  lr=0.01",0.9394597397922893
+MLP,"layers=(256, 256)  act=GELU  drop=0.0  lr=0.01",0.9391043635326806
+SVM,C=1  degree=4  gamma=scale  kernel=poly,0.938506622671244
+MLP,"layers=(256, 512, 1024)  act=GELU  drop=0.0  lr=0.01",0.9354602327606815
+SVM,C=0.1  degree=2  gamma=auto  kernel=poly,0.9316075139795653
+MLP,"layers=(256, 256, 1024)  act=GELU  drop=0.0  lr=0.01",0.9312614577014172
+MLP,"layers=(1024, 256, 256)  act=ReLU  drop=0.4  lr=0.01",0.9246701116889993
+SVM,C=10  degree=5  gamma=0.01  kernel=poly,0.9210107332941306
+SVM,C=100  degree=5  gamma=0.01  kernel=poly,0.9210107332941306
+SVM,C=100  degree=5  gamma=0.001  kernel=poly,0.9210107332941306
+SVM,C=0.1  degree=5  gamma=0.01  kernel=poly,0.9210107332941306
+SVM,C=0.01  degree=5  gamma=0.01  kernel=poly,0.9210107332941306
+SVM,C=1  degree=5  gamma=0.01  kernel=poly,0.9210107332941306
+MLP,"layers=(256, 512, 1024)  act=ReLU  drop=0.0  lr=0.01",0.9199766932017308
+SVM,C=10  degree=5  gamma=0.001  kernel=poly,0.9196444867007946
+SVM,C=0.1  degree=3  gamma=scale  kernel=poly,0.9191373344594038
+SVM,C=100  degree=5  gamma=scale  kernel=poly,0.9188366335525208
+SVM,C=10  degree=4  gamma=auto  kernel=poly,0.9181755743416444
+SVM,C=10  degree=5  gamma=scale  kernel=poly,0.9159937667035896
+SVM,C=0.01  degree=2  gamma=0.001  kernel=poly,0.9140994955244761
+SVM,C=0.01  degree=2  gamma=scale  kernel=poly,0.9129450635315633
+SVM,C=0.01  degree=2  gamma=auto  kernel=poly,0.9129450635315633
+SVM,C=1  degree=3  gamma=auto  kernel=poly,0.9125279968274822
+SVM,C=1  degree=5  gamma=0.001  kernel=poly,0.9055259678755118
+SVM,C=0.1  degree=4  gamma=0.001  kernel=poly,0.8978356499687427
+SVM,C=100  degree=5  gamma=auto  kernel=poly,0.8932949547596705
+SVM,C=1  degree=5  gamma=scale  kernel=poly,0.8822658574699266
+SVM,C=1  gamma=0.01  kernel=sigmoid,0.8327778702077789
+SVM,C=0.1  gamma=0.01  kernel=sigmoid,0.82136858015628
+SVM,C=0.1  degree=5  gamma=0.001  kernel=poly,0.8176844419088479
+MLP,"layers=(1024, 1024, 1024)  act=GELU  drop=0.0  lr=0.01",0.8129354925702269
+SVM,C=0.1  degree=4  gamma=scale  kernel=poly,0.8092340652830705
+MLP,"layers=(512, 256)  act=GELU  drop=0.0  lr=0.01",0.8025643538480138
+SVM,C=10  gamma=0.01  kernel=sigmoid,0.8019452074062322
+SVM,C=100  gamma=0.01  kernel=sigmoid,0.7906299779431066
+SVM,C=0.01  degree=3  gamma=0.001  kernel=poly,0.7905578262302099
+SVM,C=0.1  degree=3  gamma=auto  kernel=poly,0.7868143736637818
+SVM,C=0.01  degree=3  gamma=scale  kernel=poly,0.7868143736637818
+SVM,C=0.01  degree=3  gamma=auto  kernel=poly,0.7868143736637818
+SVM,C=10  degree=5  gamma=auto  kernel=poly,0.7653725355000389
+MLP,"layers=(512, 1024, 1024)  act=GELU  drop=0.0  lr=0.01",0.7293741327615798
+MLP,"layers=(512, 512, 1024)  act=SiLU  drop=0.0  lr=0.01",0.7250078549769426
+SVM,C=1  degree=4  gamma=auto  kernel=poly,0.7074430476796042
+MLP,"layers=(256, 1024, 1024)  act=GELU  drop=0.0  lr=0.01",0.697002522938339
+MLP,"layers=(1024, 256)  act=GELU  drop=0.0  lr=0.01",0.6927789839493721
+SVM,C=0.1  degree=5  gamma=scale  kernel=poly,0.6880276883059235
+MLP,"layers=(1024, 512, 1024)  act=SiLU  drop=0.0  lr=0.01",0.682772744043057
+MLP,"layers=(1024, 256)  act=SiLU  drop=0.0  lr=0.01",0.6534933256548656
+MLP,"layers=(256, 256, 1024)  act=SiLU  drop=0.0  lr=0.01",0.6520400448262852
+SVM,C=0.01  degree=4  gamma=0.001  kernel=poly,0.6514992815882708
+SVM,C=0.01  degree=4  gamma=scale  kernel=poly,0.648084685431739
+SVM,C=0.01  degree=4  gamma=auto  kernel=poly,0.648084685431739
+SVM,C=0.1  degree=4  gamma=auto  kernel=poly,0.648084685431739
+MLP,"layers=(512, 256, 512)  act=SiLU  drop=0.2  lr=0.01",0.6447713712978853
+MLP,"layers=(512, 256, 256)  act=ReLU  drop=0.0  lr=0.01",0.5835668278418401
+SVM,C=0.01  degree=5  gamma=0.001  kernel=poly,0.5174975829138206
+SVM,C=0.01  gamma=0.01  kernel=sigmoid,0.51715369146267
+SVM,C=0.1  degree=5  gamma=auto  kernel=poly,0.5126086057127587
+SVM,C=1  degree=5  gamma=auto  kernel=poly,0.5126086057127587
+SVM,C=0.01  degree=5  gamma=scale  kernel=poly,0.5126086057127587
+SVM,C=0.01  degree=5  gamma=auto  kernel=poly,0.5126086057127587
+MLP,"layers=(256, 1024, 1024)  act=ReLU  drop=0.2  lr=0.01",0.49291300402521765
+MLP,"layers=(256, 512, 512)  act=GELU  drop=0.0  lr=0.01",0.48617469284980414
+SVM,C=10  gamma=0.01  kernel=rbf,0.48443266732176554
+SVM,C=1000  gamma=0.01  kernel=rbf,0.48443266732176554
+SVM,C=100  gamma=0.01  kernel=rbf,0.48443266732176554
+MLP,"layers=(512, 1024, 512)  act=SiLU  drop=0.2  lr=0.01",0.48264566249431473
+MLP,"layers=(512, 1024, 1024)  act=SiLU  drop=0.0  lr=0.01",0.47658244141692085
+MLP,"layers=(512, 1024, 512)  act=ReLU  drop=0.0  lr=0.01",0.45329590745348225
+SVM,C=1  gamma=0.01  kernel=rbf,0.4439642192794952
+MLP,"layers=(512, 1024, 1024)  act=ReLU  drop=0.0  lr=0.01",0.43584972933290655
+MLP,"layers=(512, 256, 512)  act=ReLU  drop=0.0  lr=0.01",0.42039633650121483
+MLP,"layers=(256, 1024, 1024)  act=SiLU  drop=0.0  lr=0.01",0.409896677401181
+MLP,"layers=(256, 512, 512)  act=ReLU  drop=0.0  lr=0.01",0.39770420918522126
+MLP,"layers=(512, 512, 512)  act=ReLU  drop=0.0  lr=0.01",0.38231474274835486
+MLP,"layers=(1024, 1024, 1024)  act=GELU  drop=0.2  lr=0.01",0.3634205560119874
+MLP,"layers=(512, 256, 1024)  act=SiLU  drop=0.0  lr=0.01",0.3404860184780262
+MLP,"layers=(256, 256, 512)  act=ReLU  drop=0.2  lr=0.01",0.32552603017801446
+MLP,"layers=(1024, 256, 256)  act=ReLU  drop=0.0  lr=0.01",0.3169521105691318
+MLP,"layers=(512, 1024, 512)  act=GELU  drop=0.0  lr=0.01",0.3154836382807958
+MLP,"layers=(512, 256, 512)  act=GELU  drop=0.0  lr=0.01",0.3122563525734303
+MLP,"layers=(512, 512, 1024)  act=GELU  drop=0.0  lr=0.01",0.3079020913941813
+MLP,"layers=(256, 512, 256)  act=SiLU  drop=0.0  lr=0.01",0.3022019464785347
+MLP,"layers=(1024, 256, 1024)  act=ReLU  drop=0.0  lr=0.01",0.2914979242565449
+MLP,"layers=(256, 1024, 512)  act=ReLU  drop=0.2  lr=0.01",0.2874272812658545
+MLP,"layers=(256, 1024, 512)  act=ReLU  drop=0.0  lr=0.01",0.2852272389561759
+MLP,"layers=(1024, 256, 512)  act=GELU  drop=0.2  lr=0.01",0.27983650828415546
+MLP,"layers=(1024, 256, 512)  act=SiLU  drop=0.0  lr=0.01",0.2689237577791795
+MLP,"layers=(512, 1024, 512)  act=ReLU  drop=0.2  lr=0.01",0.2626833267245446
+MLP,"layers=(1024, 1024, 1024)  act=SiLU  drop=0.0  lr=0.01",0.2605020529617303
+MLP,"layers=(512, 256, 1024)  act=GELU  drop=0.0  lr=0.01",0.2568271468134038
+MLP,"layers=(512, 512, 512)  act=GELU  drop=0.0  lr=0.01",0.25156026129639364
+MLP,"layers=(256, 256, 512)  act=GELU  drop=0.0  lr=0.01",0.2449779675210509
+MLP,"layers=(512, 512, 256)  act=ReLU  drop=0.4  lr=0.01",0.24157918682920068
+MLP,"layers=(256, 512, 256)  act=ReLU  drop=0.0  lr=0.01",0.23517090255841194
+MLP,"layers=(256, 512, 256)  act=GELU  drop=0.0  lr=0.01",0.2311883477257835
+MLP,"layers=(256, 1024, 512)  act=SiLU  drop=0.0  lr=0.01",0.22536166201628255
+MLP,"layers=(1024, 256, 1024)  act=SiLU  drop=0.0  lr=0.01",0.22300171819128467
+MLP,"layers=(1024, 256, 512)  act=ReLU  drop=0.0  lr=0.01",0.22057098567511393
+MLP,"layers=(256, 1024, 256)  act=ReLU  drop=0.0  lr=0.01",0.22010140151436106
+MLP,"layers=(512, 1024, 256)  act=ReLU  drop=0.0  lr=0.01",0.21994248264663016
+MLP,"layers=(1024, 512, 1024)  act=ReLU  drop=0.0  lr=0.01",0.2195424938389648
+MLP,"layers=(512, 1024, 256)  act=SiLU  drop=0.2  lr=0.01",0.21947200935830202
+MLP,"layers=(1024, 256, 1024)  act=GELU  drop=0.0  lr=0.01",0.21937935348497664
+MLP,"layers=(256, 512, 512)  act=ReLU  drop=0.2  lr=0.01",0.21885124279418725
+MLP,"layers=(256, 256, 512)  act=SiLU  drop=0.2  lr=0.01",0.2179447990650004
+MLP,"layers=(256, 512, 512)  act=SiLU  drop=0.0  lr=0.01",0.21721359254343284
+MLP,"layers=(512, 512, 512)  act=GELU  drop=0.2  lr=0.01",0.2171945076839404
+MLP,"layers=(256, 1024, 256)  act=SiLU  drop=0.0  lr=0.01",0.21647284046147366
+MLP,"layers=(512, 1024, 512)  act=GELU  drop=0.4  lr=0.01",0.21491265605072532
+MLP,"layers=(1024, 512, 512)  act=ReLU  drop=0.0  lr=0.01",0.2142509466840924
+MLP,"layers=(512, 512, 256)  act=ReLU  drop=0.0  lr=0.01",0.21421351250466591
+MLP,"layers=(1024, 512, 512)  act=GELU  drop=0.2  lr=0.01",0.21366613685427743
+MLP,"layers=(256, 1024, 512)  act=GELU  drop=0.2  lr=0.01",0.20959596484661983
+MLP,"layers=(256, 512, 512)  act=SiLU  drop=0.2  lr=0.01",0.208023075784008
+MLP,"layers=(1024, 1024, 512)  act=ReLU  drop=0.0  lr=0.01",0.20232203161090268
+MLP,"layers=(512, 512, 512)  act=SiLU  drop=0.0  lr=0.01",0.1868294341192647
+MLP,"layers=(256, 256, 512)  act=SiLU  drop=0.0  lr=0.01",0.184417312638981
+MLP,"layers=(256, 256, 256)  act=GELU  drop=0.0  lr=0.01",0.1687950129008416
+MLP,"layers=(256, 512, 512)  act=SiLU  drop=0.4  lr=0.01",0.16851579525522226
+MLP,"layers=(256, 512, 256)  act=GELU  drop=0.2  lr=0.01",0.16842021801991322
+MLP,"layers=(512, 512, 256)  act=GELU  drop=0.0  lr=0.01",0.16438964474678758
+MLP,"layers=(256, 256, 256)  act=ReLU  drop=0.4  lr=0.01",0.15850238368303174
+MLP,"layers=(256, 1024, 512)  act=GELU  drop=0.0  lr=0.01",0.1556008024672875
+MLP,"layers=(1024, 512, 256)  act=GELU  drop=0.4  lr=0.01",0.1437720322830342
+MLP,"layers=(512, 256, 256)  act=GELU  drop=0.0  lr=0.01",0.14167702074100164
+SVM,C=0.01  gamma=0.01  kernel=rbf,0.13291622783364795
+SVM,C=0.1  gamma=0.01  kernel=rbf,0.13291622783364795
+MLP,"layers=(1024, 256, 256)  act=ReLU  drop=0.2  lr=0.01",0.13193609766630082
+MLP,"layers=(256, 1024, 256)  act=GELU  drop=0.0  lr=0.01",0.1312289699337892
+MLP,"layers=(1024, 1024, 1024)  act=ReLU  drop=0.0  lr=0.01",0.12297822796159827
+MLP,"layers=(512, 1024, 1024)  act=SiLU  drop=0.2  lr=0.01",0.12196043800777111
+MLP,"layers=(512, 512, 256)  act=ReLU  drop=0.2  lr=0.01",0.12016724996857447
+MLP,"layers=(256, 256, 256)  act=ReLU  drop=0.0  lr=0.01",0.11930222790194729
+MLP,"layers=(256, 1024, 256)  act=ReLU  drop=0.4  lr=0.01",0.11930222790194729
+MLP,"layers=(1024, 1024, 256)  act=ReLU  drop=0.0  lr=0.01",0.11930222790194729
+MLP,"layers=(256, 256, 256)  act=SiLU  drop=0.2  lr=0.01",0.11930222790194729
+MLP,"layers=(1024, 1024, 512)  act=ReLU  drop=0.4  lr=0.01",0.11859545715928695
+MLP,"layers=(256, 256, 256)  act=SiLU  drop=0.4  lr=0.01",0.11859545715928695
+MLP,"layers=(512, 512, 512)  act=SiLU  drop=0.2  lr=0.01",0.11787950239856898
+MLP,"layers=(1024, 512, 512)  act=SiLU  drop=0.0  lr=0.01",0.11733333333333333
+MLP,"layers=(512, 1024, 256)  act=GELU  drop=0.0  lr=0.01",0.11724410580793561
+MLP,"layers=(1024, 512, 256)  act=SiLU  drop=0.0  lr=0.01",0.11641927380680522
+MLP,"layers=(1024, 256, 512)  act=SiLU  drop=0.2  lr=0.01",0.11567596643328204
+MLP,"layers=(1024, 512, 512)  act=ReLU  drop=0.2  lr=0.01",0.11567460317460317
+MLP,"layers=(512, 256, 256)  act=ReLU  drop=0.2  lr=0.01",0.11491995455007344
+MLP,"layers=(512, 1024, 512)  act=GELU  drop=0.2  lr=0.01",0.11491995455007344
+MLP,"layers=(512, 1024, 1024)  act=ReLU  drop=0.2  lr=0.01",0.11415511538890333
+MLP,"layers=(256, 256, 256)  act=ReLU  drop=0.2  lr=0.01",0.11415511538890333
+MLP,"layers=(1024, 512, 512)  act=SiLU  drop=0.2  lr=0.01",0.11337986712639811
+MLP,"layers=(512, 512, 512)  act=ReLU  drop=0.2  lr=0.01",0.11282756722255664
+MLP,"layers=(256, 256, 256)  act=SiLU  drop=0.0  lr=0.01",0.11259398496240601
+MLP,"layers=(256, 512, 1024)  act=SiLU  drop=0.0  lr=0.01",0.11259398496240601
+MLP,"layers=(512, 512, 256)  act=SiLU  drop=0.0  lr=0.01",0.11024770287288078
+MLP,"layers=(1024, 512, 256)  act=SiLU  drop=0.4  lr=0.01",0.10849673202614378
+MLP,"layers=(1024, 1024, 256)  act=ReLU  drop=0.2  lr=0.01",0.10589488636363638
+MLP,"layers=(256, 1024, 1024)  act=GELU  drop=0.2  lr=0.01",0.09813107586883651
+MLP,"layers=(512, 1024, 512)  act=SiLU  drop=0.0  lr=0.01",0.09735379979282419
+MLP,"layers=(512, 1024, 512)  act=ReLU  drop=0.4  lr=0.01",0.09423076923076923
+MLP,"layers=(1024, 256, 256)  act=SiLU  drop=0.0  lr=0.01",0.09256410256410257
+MLP,"layers=(512, 512, 256)  act=GELU  drop=0.4  lr=0.01",0.09095195991747715
+MLP,"layers=(256, 1024, 512)  act=SiLU  drop=0.4  lr=0.01",0.09027322638451599
+MLP,"layers=(1024, 1024, 512)  act=SiLU  drop=0.0  lr=0.01",0.08134865864832577
+MLP,"layers=(256, 1024, 512)  act=ReLU  drop=0.4  lr=0.01",0.07333070470026785
+MLP,"layers=(1024, 512, 256)  act=ReLU  drop=0.0  lr=0.01",0.057043151307373925
+SVM,C=1000  gamma=0.1  kernel=rbf,0.056792744292744286
+SVM,C=100  gamma=0.1  kernel=rbf,0.056792744292744286
+SVM,C=10  gamma=0.1  kernel=rbf,0.056792744292744286
+MLP,"layers=(256, 512, 256)  act=ReLU  drop=0.2  lr=0.01",0.055543882333925966
+MLP,"layers=(256, 512, 256)  act=SiLU  drop=0.4  lr=0.01",0.05185185185185185
+MLP,"layers=(1024, 1024, 512)  act=GELU  drop=0.0  lr=0.01",0.050360891950463026
+MLP,"layers=(1024, 512, 256)  act=GELU  drop=0.0  lr=0.01",0.049956358497623955
+MLP,"layers=(512, 256, 256)  act=SiLU  drop=0.2  lr=0.01",0.04801836094939544
+SVM,C=1  gamma=0.1  kernel=rbf,0.046636018787917524
+MLP,"layers=(512, 1024, 256)  act=SiLU  drop=0.4  lr=0.01",0.04603639139839674
+MLP,"layers=(512, 1024, 256)  act=ReLU  drop=0.4  lr=0.01",0.03763696155490997
+MLP,"layers=(1024, 512, 256)  act=ReLU  drop=0.2  lr=0.01",0.035410579044665755
+MLP,"layers=(512, 256, 512)  act=SiLU  drop=0.0  lr=0.01",0.035410579044665755
+MLP,"layers=(1024, 1024, 512)  act=ReLU  drop=0.2  lr=0.01",0.035410579044665755
+MLP,"layers=(512, 512, 256)  act=GELU  drop=0.2  lr=0.01",0.035410579044665755
+SVM,C=0.01  gamma=0.1  kernel=rbf,0.033833710149499624
+SVM,C=0.1  gamma=0.1  kernel=rbf,0.033833710149499624
+MLP,"layers=(256, 1024, 256)  act=GELU  drop=0.2  lr=0.01",0.03312983312983313
+MLP,"layers=(256, 512, 512)  act=GELU  drop=0.2  lr=0.01",0.02607455932465537
+MLP,"layers=(512, 256, 256)  act=SiLU  drop=0.0  lr=0.01",0.025940482874789443
+MLP,"layers=(1024, 1024, 512)  act=GELU  drop=0.4  lr=0.01",0.020835462442514052
+MLP,"layers=(256, 512, 256)  act=SiLU  drop=0.2  lr=0.01",0.020835462442514052
+MLP,"layers=(1024, 512, 256)  act=SiLU  drop=0.2  lr=0.01",0.020835462442514052
+MLP,"layers=(256, 256, 256)  act=GELU  drop=0.2  lr=0.01",0.020835462442514052
+MLP,"layers=(512, 256, 256)  act=GELU  drop=0.2  lr=0.01",0.020835462442514052
+MLP,"layers=(1024, 256, 256)  act=SiLU  drop=0.2  lr=0.01",0.020835462442514052
+MLP,"layers=(256, 512, 256)  act=GELU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(256, 512, 256)  act=ReLU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 1024, 256)  act=SiLU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 1024, 256)  act=SiLU  drop=0.0  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 1024, 256)  act=GELU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 1024, 256)  act=ReLU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 1024, 256)  act=SiLU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 512, 1024)  act=GELU  drop=0.0  lr=0.01",0.01818181818181818
+MLP,"layers=(512, 512, 256)  act=SiLU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(512, 512, 256)  act=SiLU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 512, 512)  act=GELU  drop=0.0  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 1024, 512)  act=GELU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(256, 1024, 256)  act=GELU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 1024, 512)  act=SiLU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 512, 256)  act=ReLU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 512, 256)  act=GELU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(256, 1024, 512)  act=GELU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(256, 1024, 512)  act=SiLU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(256, 1024, 256)  act=ReLU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(512, 1024, 256)  act=SiLU  drop=0.0  lr=0.01",0.01818181818181818
+MLP,"layers=(512, 1024, 256)  act=ReLU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(512, 1024, 256)  act=GELU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(512, 1024, 256)  act=GELU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(512, 1024, 512)  act=SiLU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 1024, 256)  act=GELU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 1024, 256)  act=GELU  drop=0.0  lr=0.01",0.01818181818181818
+MLP,"layers=(256, 1024, 256)  act=SiLU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(256, 1024, 256)  act=SiLU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 256, 512)  act=ReLU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 256, 512)  act=GELU  drop=0.0  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 256, 256)  act=GELU  drop=0.0  lr=0.01",0.01818181818181818
+MLP,"layers=(1024, 256, 256)  act=GELU  drop=0.2  lr=0.01",0.01818181818181818
+MLP,"layers=(256, 512, 512)  act=ReLU  drop=0.4  lr=0.01",0.01818181818181818
+MLP,"layers=(256, 256, 256)  act=GELU  drop=0.4  lr=0.01",0.01818181818181818
