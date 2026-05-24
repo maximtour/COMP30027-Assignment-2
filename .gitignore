@@ -1,6 +1,6 @@
-# PyTorch model files
-*.pt
-*.pth
-
 # Secrets
 .env
+
+# Large files
+*.pt
+*.zip
